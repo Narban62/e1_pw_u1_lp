@@ -1,0 +1,35 @@
+p::before{
+    content: attr(type);
+}
+
+
+table {
+    border: 20px;
+    list-style: armenian;
+    
+}
+form {
+    display: block;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: blue; */
+}
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(167, 125, 125);
+    padding: 30px;
+}
+
+p::before {
+    content: attr(type);
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
